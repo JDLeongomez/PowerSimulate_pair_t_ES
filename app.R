@@ -119,7 +119,7 @@ ui <- fluidPage(
            tags$h3("Si esta fuera la diferencia en la población"),
            plotOutput("effectPlot") %>% 
              withSpinner(color = "#ff5555"),
-           tags$p(HTML("<b style=color:#ff5555;>NOTA:</b> La <em>d</em> de Cohen es el 
+           tags$h6(HTML("<b style=color:#ff5555;>NOTA:</b> La <em>d</em> de Cohen es el 
                        tamaño del efecto más común para diferencias estandarizadas entre 
                        dos medias. Sin embargo, tiende a proporcionar estimaciones 
                        sesgadas cuando se tienen tamaños de muestra pequeños. Por este 
