@@ -78,7 +78,7 @@ ui <- fluidPage(
            hr(),
            tags$h4("Condición 2"),
            textInput(inputId = "label2",
-                     label = "Etiqueta de la condición 1",
+                     label = "Etiqueta de la condición 2",
                      value = "Post-test",
                      width = '300px'),
            numericInput(inputId = "mean2",
